@@ -1,0 +1,63 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Matheus Mello de Lima</a>
+    <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarColor02"
+        aria-controls="navbarColor02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+    >
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav mr-auto">
+            <li id="home-link" class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item" id="articles-link">
+                <a class="nav-link" href="articles.html">Artigos</a>
+            </li>
+            <li class="nav-item" id="about-link">
+                <a class="nav-link" href="about.html">Sobre</a>
+            </li>
+        </ul>
+        <div class="my-2 my-lg-0">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a
+                        class="nav-link"
+                        href="https://www.linkedin.com/in/matheus-mello-de-lima-a50415111/"
+                        target="_blank"
+                        >LinkedIn</a
+                    >
+                </li>
+                <li class="nav-item active">
+                    <a
+                        class="nav-link"
+                        href="https://github.com/mellomaths"
+                        target="_blank"
+                        >GitHub</a
+                    >
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<script>
+    const url = window.location.href;
+    let liId = '#about-link';
+    if (url.includes('about')) {
+        liId = '#about-link';
+    } else {
+        liId = '#home-link';
+    }
+
+    const li = $(liId);
+    li.addClass('active');
+
+    const a = li.find('a');
+    a.append('<span class="sr-only">(current)</span>');
+</script>
