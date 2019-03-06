@@ -51,6 +51,8 @@
     let liId = '#about-link';
     if (url.includes('about')) {
         liId = '#about-link';
+    } else if (url.includes('articles')) {
+        liId = '#articles-link';
     } else {
         liId = '#home-link';
     }
