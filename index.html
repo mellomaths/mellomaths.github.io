@@ -268,7 +268,7 @@
                     <h2 class="display-5">Projetos</h2>
                     <hr class="my-4" />
                     <div class="card-columns mt-4">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card hover-effect" style="width: 18rem;">
                             <img
                                 src="https://discordapp.com/assets/fc0b01fe10a0b8c602fb0106d8189d9b.png"
                                 class="card-img-top"
@@ -362,6 +362,22 @@
             $('.nav-scroll-item').click(function() {
                 var pageId = $(this).attr('data-page');
                 $('html, body').animate({ scrollTop: $('#' + pageId).offset().top }, 1000);
+            });
+            $(document).ready(function () {
+                $('.hover-effect').hover(
+                    // When mouse hover
+                    function() {
+                        $(this).animate({
+                            marginTop: "-=1%"
+                        }, 200);
+                    },
+                    // When mouse out
+                    function() {
+                        $(this).animate({
+                            marginTop: "0%"
+                        }, 200);
+                    }
+                )
             });
         </script>
     </body>
