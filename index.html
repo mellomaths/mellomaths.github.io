@@ -2,21 +2,11 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Matheus Mello</title>
-        <link
-            rel="shortcut icon"
-            href="./assets/favicon.png"
-            type="image/x-icon"
-        />
-        <link
-            rel="stylesheet"
-            href="https://bootswatch.com/4/flatly/bootstrap.min.css"
-        />
+        <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+        <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css" />
         <link
             rel="stylesheet"
             href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -24,144 +14,254 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="./css/icon.css" />
+        <link rel="stylesheet" href="./css/timeline.css" />
+        <link rel="stylesheet" href="./css/index.css" />
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </head>
-    <body>
-        <div id="header"></div>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <section id="header">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+                <a class="navbar-brand nav-scroll-item" href="#" data-page="header">Matheus Mello de Lima</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarColor02"
+                    aria-controls="navbarColor02"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <div id="about">
-            <div class="jumbotron jumbotron-fluid container-fluid">
-                <div class="container">
-                    <h1 class="display-4">
-                        Matheus Mello de Lima |
-                        <a
-                            class="btn btn-primary btn-lg"
-                            href="https://www.linkedin.com/in/matheus-mello-de-lima-a50415111/"
-                            role="button"
-                            target="_blank"
-                        >
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a
-                            class="btn btn-primary btn-lg"
-                            href="https://github.com/mellomaths"
-                            role="button"
-                            target="_blank"
-                        >
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a
-                            tabindex="0"
-                            class="btn btn-lg btn-primary"
-                            role="button"
-                            href="#"
-                            onclick="return false;"
-                            data-toggle="popover"
-                            data-trigger="hover"
-                            data-content="mellomatheuslima@gmail.com"
-                            ><i class="far fa-envelope"></i
-                        ></a>
-                        <a
-                            tabindex="0"
-                            class="btn btn-lg btn-primary"
-                            role="button"
-                            href="#"
-                            onclick="return false;"
-                            data-toggle="popover"
-                            data-trigger="hover"
-                            data-content="+55 21 99692-3101"
-                            ><i class="fas fa-mobile-alt"></i
-                        ></a>
-                        <a
-                            tabindex="0"
-                            class="btn btn-lg btn-primary"
-                            role="button"
-                            href="#"
-                            onclick="return false;"
-                            data-toggle="popover"
-                            data-trigger="hover"
-                            data-content="mellomatheuslima"
-                            ><i class="fab fa-skype"></i
-                        ></a>
-                    </h1>
-                    <p class="lead">
-                        Sou estudante do 6º período de Ciência da
-                        Computação pela Univerdade do Estado do Rio de
-                        Janeiro - UERJ e integrante de uma equipe de
-                        desenvolvimento Agile como Analista de Sistemas
-                        Júnior na IBM Brasil, trabalhando com sistemas de
-                        <a
-                            href="https://www.handshake.com/blog/what-is-order-management-2"
-                            class="text-primary"
-                            >Order Management</a
-                        >
-                        voltado para o mercado de Telecomunicações. Além
-                        disso, tenho como desafio pessoal, facilitar e
-                        agilizar processos internos da equipe,
-                        automatizando-os, através de ferramentas
-                        desenvolvidas em Node.js ou Python.
-                    </p>
-                    <p class="lead">
-                        Possuo interesse em Desenvolvimento Web, Mobile e
-                        em Data Visualization e Data Science.
-                    </p>
-                    <p class="lead">
-                        Ferramentas e tecnologias com que trabalho:
-                    </p>
-                    <div class="list-group">
-                        <a
-                            href="https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript"
-                            target="_blank"
-                            class="list-group-item list-group-item-action"
-                        >
-                            JavaScript
-                        </a>
-                        <a
-                            href="https://www.ericsson.com/en/press-releases/2012/9/ericsson-acquires-canadian-ossbss-company-conceptwave"
-                            target="_blank"
-                            class="list-group-item list-group-item-action"
-                        >
-                            Ericsson's Concept Wave
-                        </a>
-                        <a
-                            href="https://www.soapui.org/"
-                            target="_blank"
-                            class="list-group-item list-group-item-action"
-                            >Soap UI</a
-                        >
-                        <a
-                            href="https://www.oracle.com/br/database/"
-                            target="_blank"
-                            class="list-group-item list-group-item-action"
-                            >Banco de Dados Oracle</a
-                        >
-                        <a
-                            href="https://www.ibm.com/support/knowledgecenter/en/SSGMCP_5.3.0/com.ibm.cics.ts.webservices.doc/concepts/dfhws_definition.html"
-                            target="_blank"
-                            class="list-group-item list-group-item-action"
-                            >Web Services</a
-                        >
-                        <a
-                            href="https://git-scm.com/"
-                            target="_blank"
-                            class="list-group-item list-group-item-action"
-                            >Git e GitHub Enterprise</a
-                        >
-                        <a
-                            href="https://www.zenhub.com/"
-                            target="_blank"
-                            class="list-group-item list-group-item-action"
-                            >Zenhub</a
-                        >
+                <div class="collapse navbar-collapse" id="navbarColor02">
+                    <ul class="navbar-nav mr-auto">
+                        <li id="home-link" class="nav-item">
+                            <a class="nav-link nav-scroll-item" href="#" data-page="about">Sobre</a>
+                        </li>
+                        <li id="experience-link" class="nav-item">
+                            <a class="nav-link nav-scroll-item" href="#" data-page="experience">Experiências</a>
+                        </li>
+                        <li id="skills-link" class="nav-item">
+                            <a class="nav-link nav-scroll-item" href="#" data-page="skills">Competências</a>
+                        </li>
+                        <li id="projects-link" class="nav-item">
+                            <a class="nav-link nav-scroll-item" href="#" data-page="projects">Projetos</a>
+                        </li>
+                        <li id="articles-link" class="nav-item">
+                            <a class="nav-link nav-scroll-item" href="#" data-page="articles">Artigos</a>
+                        </li>
+                    </ul>
+                    <div class="socials">
+                        <div class="my-2 my-lg-0">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link"
+                                        href="https://www.linkedin.com/in/matheus-mello-de-lima-a50415111/"
+                                        target="_blank"
+                                        ><i class="fab fa-linkedin-in"></i
+                                    ></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://github.com/mellomaths" target="_blank"
+                                        ><i class="fab fa-github"></i
+                                    ></a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
+                </div>
+            </nav>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../assets/index.png" class="d-block w-100" alt="..." />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="main" class="main">
+            <section id="about" class="page pb-5">
+                <span class="d-block p-4 bg-primary text-white text-center"></span>
+                <div class="jumbotron jumbotron-fluid container-fluid mb-0 pb-0">
+                    <div class="container">
+                        <h1 class="display-4">
+                            Matheus Mello de Lima |
+                            <a
+                                class="btn btn-primary btn-lg"
+                                href="https://www.linkedin.com/in/matheus-mello-de-lima-a50415111/"
+                                role="button"
+                                target="_blank"
+                            >
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a
+                                class="btn btn-primary btn-lg"
+                                href="https://github.com/mellomaths"
+                                role="button"
+                                target="_blank"
+                            >
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a
+                                tabindex="0"
+                                class="btn btn-lg btn-primary"
+                                role="button"
+                                href="#"
+                                onclick="return false;"
+                                data-toggle="popover"
+                                data-trigger="hover"
+                                data-content="mellomatheuslima@gmail.com"
+                                ><i class="far fa-envelope"></i
+                            ></a>
+                            <a
+                                tabindex="0"
+                                class="btn btn-lg btn-primary"
+                                role="button"
+                                href="#"
+                                onclick="return false;"
+                                data-toggle="popover"
+                                data-trigger="hover"
+                                data-content="+55 21 99692-3101"
+                                ><i class="fas fa-mobile-alt"></i
+                            ></a>
+                            <a
+                                tabindex="0"
+                                class="btn btn-lg btn-primary"
+                                role="button"
+                                href="#"
+                                onclick="return false;"
+                                data-toggle="popover"
+                                data-trigger="hover"
+                                data-content="mellomatheuslima"
+                                ><i class="fab fa-skype"></i
+                            ></a>
+                        </h1>
+                        <p class="lead">
+                            Sou estudante do 6º período de Ciência da Computação pela Univerdade do Estado do Rio
+                            de Janeiro - UERJ e integrante de uma equipe de desenvolvimento Agile como Analista de
+                            Sistemas Júnior na IBM Brasil, trabalhando com sistemas de
+                            <a
+                                href="https://www.handshake.com/blog/what-is-order-management-2"
+                                target="_blank"
+                                class="text-primary"
+                                >Order Management</a
+                            >
+                            voltado para o mercado de Telecomunicações. Além disso, tenho como desafio pessoal,
+                            facilitar e agilizar processos internos da equipe, automatizando-os, através de
+                            ferramentas desenvolvidas em Node.js ou Python.
+                        </p>
+                        <p class="lead">
+                            Possuo interesse em Desenvolvimento Web, Mobile e em Data Visualization e Data Science.
+                        </p>
+                        <p class="lead">
+                            Ferramentas e tecnologias com que trabalho:
+                        </p>
+                        <div class="list-group">
+                            <a
+                                href="https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript"
+                                target="_blank"
+                                class="list-group-item list-group-item-action"
+                            >
+                                JavaScript
+                            </a>
+                            <a
+                                href="https://www.ericsson.com/en/press-releases/2012/9/ericsson-acquires-canadian-ossbss-company-conceptwave"
+                                target="_blank"
+                                class="list-group-item list-group-item-action"
+                            >
+                                Ericsson's Concept Wave
+                            </a>
+                            <a
+                                href="https://www.soapui.org/"
+                                target="_blank"
+                                class="list-group-item list-group-item-action"
+                                >Soap UI</a
+                            >
+                            <a
+                                href="https://www.oracle.com/br/database/"
+                                target="_blank"
+                                class="list-group-item list-group-item-action"
+                                >Banco de Dados Oracle</a
+                            >
+                            <a
+                                href="https://www.ibm.com/support/knowledgecenter/en/SSGMCP_5.3.0/com.ibm.cics.ts.webservices.doc/concepts/dfhws_definition.html"
+                                target="_blank"
+                                class="list-group-item list-group-item-action"
+                                >Web Services</a
+                            >
+                            <a
+                                href="https://git-scm.com/"
+                                target="_blank"
+                                class="list-group-item list-group-item-action"
+                                >Git e GitHub Enterprise</a
+                            >
+                            <a
+                                href="https://www.zenhub.com/"
+                                target="_blank"
+                                class="list-group-item list-group-item-action"
+                                >Zenhub</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="experience" class="page py-5">
+                <div class="jumbotron jumbotron-fluid container-fluid mb-0">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="main-timeline">
+                                    <div class="timeline">
+                                        <div class="timeline-icon"><i class="fa fa-globe"></i></div>
+                                        <span class="year">Jun 2018</span>
+                                        <div class="timeline-content">
+                                            <h5 class="title">Analista de Sistemas Júnior</h5>
+                                            <p class="description">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+                                                mattis felis vitae risus pulvinar tincidunt. Nam ac venenatis enim.
+                                                Aenean hendrerit justo sed.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline">
+                                        <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
+                                        <span class="year">Fev 2018</span>
+                                        <div class="timeline-content">
+                                            <h5 class="title">Estágio em Desenvolvimento de Software</h5>
+                                            <p class="description">
+                                                Iniciado no programa BTP de estágio na IBM. Posteriormente
+                                                efetivado para o cargo de IBM IT Specialist.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline">
+                                        <div class="timeline-icon"><i class="fa fa-rocket"></i></div>
+                                        <span class="year">Fev 2016</span>
+                                        <div class="timeline-content">
+                                            <h5 class="title">Ciência da Computação - UERJ</h5>
+                                            <p class="description"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="skills" class="page pb-5">
+                <div class="container">
+                    <h2 class="display-5">Competências</h2>
+                </div>
+            </section>
+            <section id="projects" class="page py-5">
+                <div class="container">
+                    <h2 class="display-5">Projetos</h2>
                     <hr class="my-4" />
-                    <h2 class="">Experiência</h2>
-                    <hr class="my-4" />
-                    <h2 class="">Competências</h2>
-                    <hr class="my-4" />
-                    <h2 class="">Projetos</h2>
                     <div class="card-columns mt-4">
                         <div class="card" style="width: 18rem;">
                             <img
@@ -172,34 +272,23 @@
                             <div class="card-body">
                                 <h5 class="card-title">Discord Bot</h5>
                                 <p class="card-text">
-                                    Bot para o aplicativo de comunicação
-                                    Discord que realiza funções
+                                    Bot para o aplicativo de comunicação Discord que realiza funções
                                     administrativas no servidor.
                                 </p>
                                 <p class="card-text">
-                                    <small class="text-muted"
-                                        >Em andamento</small
-                                    >
+                                    <small class="text-muted">Em andamento</small>
                                 </p>
 
-                                <div
-                                    class="d-inline-flex bd-highlight mb-4"
-                                >
+                                <div class="d-inline-flex bd-highlight mb-4">
                                     <i class="fab fa-js fa-2x p-2"></i>
                                     <i class="fab fa-node fa-2x p-2"></i>
                                     <i class="fab fa-github fa-2x p-2"></i>
 
                                     <div class="image-w bitmap-logo">
-                                        <img
-                                            src="./assets/icons/heroku.png"
-                                            alt=""
-                                        />
+                                        <img src="./assets/icons/heroku.png" alt="" />
                                     </div>
                                     <div class="image-w bitmap-logo">
-                                        <img
-                                            src="./assets/icons/mongodb.png"
-                                            alt=""
-                                        />
+                                        <img src="./assets/icons/mongodb.png" alt="" />
                                     </div>
                                 </div>
 
@@ -212,11 +301,67 @@
                             </div>
                         </div>
                     </div>
-                    <hr class="my-4" />
                 </div>
-            </div>
-        </div>
+            </section>
+            <section id="articles" class="page py-5">
+                <div class="container">
+                    <h2 class="display-5">Artigos</h2>
+                    <hr class="my-4" />
+                    <h3 class="display-6">
+                        A importância do HATEOAS em APIs Restful
+                    </h3>
+                    <p class="lead">
+                        HATEOAS ou Hypermedia As the Engine Of Application State é um modelo simples e elegante com
+                        que uma API REST pode ser desenhada para que a mesma permita que aplicações que a consumam
+                        navegue entre seus recursos através de links e URLs sem a necessidade de conhecimento denso
+                        prévio sobre a API. Desta forma, ao consumir uma API REST que segue o padrão HATEOAS...
+                    </p>
+                    <hr class="my-4" />
+                    <p>
+                        Saiba o que é e como utilizar este importante padrão de arquitetura de APIs REST que
+                        facilita a representação dos estados da aplicação e previne o chamado "hardcoding".
+                    </p>
+                    <a
+                        class="btn btn-primary btn-lg"
+                        href="https://medium.com/@mellomatheuslima/a-import%C3%A2ncia-do-hateoas-em-apis-restful-1ca2dc081288"
+                        role="button"
+                        target="_blank"
+                        >Saiba mais</a
+                    >
+                    <div class="float-right">
+                        <a
+                            class="btn btn-secondary btn-lg"
+                            href="https://gist.github.com/mellomaths/a27655c3dcae033a5d46b5a2deb8848d"
+                            role="button"
+                            target="_blank"
+                            >Leia no GitHub Gist</a
+                        >
+                        <a
+                            class="btn btn-secondary btn-lg"
+                            href="https://www.linkedin.com/pulse/import%C3%A2ncia-do-hateoas-em-apis-restful-matheus-mello-de-lima/"
+                            role="button"
+                            target="_blank"
+                            >Leia no LinkedIn</a
+                        >
+                    </div>
+                </div>
+            </section>
+        </section>
 
-        <script src="./js/index.js"></script>
+        <footer>
+            <span class="d-block p-2 bg-primary text-white text-center"></span>
+        </footer>
+
+        <script>
+            $('[data-toggle="popover"]').popover();
+            $('.nav-scroll-item').click(function() {
+                var pageId = $(this).attr('data-page');
+                $(this)
+                    .parent()
+                    .addClass('active');
+                $(this).append('<span class="sr-only">(current)</span>');
+                $('html, body').animate({ scrollTop: $('#' + pageId).offset().top }, 1000);
+            });
+        </script>
     </body>
 </html>
