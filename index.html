@@ -657,7 +657,8 @@
                                 </p>
                                 <p class="card-text">
                                     <small class="text-muted"
-                                        >Finalizado</small
+                                        >Finalizado (Repositório
+                                        Privado)</small
                                     >
                                 </p>
 
@@ -694,11 +695,82 @@
                                 </div>
 
                                 <a
-                                    href="_"
+                                    href="https://github.com/mellomaths/magibot"
                                     target="_blank"
-                                    class="btn btn-primary disabled"
-                                    >Repositório Privado</a
+                                    class="btn btn-primary disabled mr-1"
+                                    >Repositório</a
                                 >
+
+                                <button
+                                    type="button"
+                                    class="btn btn-primary"
+                                    data-toggle="modal"
+                                    data-target="#exampleModalCenter"
+                                >
+                                    Informações
+                                </button>
+
+                                <div
+                                    class="modal fade"
+                                    id="exampleModalCenter"
+                                    tabindex="-1"
+                                    role="dialog"
+                                    aria-labelledby="exampleModalCenterTitle"
+                                    aria-hidden="true"
+                                >
+                                    <div
+                                        class="modal-dialog modal-dialog-centered modal-lg"
+                                        role="document"
+                                    >
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5
+                                                    class="modal-title"
+                                                    id="exampleModalCenterTitle"
+                                                >
+                                                    Bug Report Slack App
+                                                </h5>
+                                                <button
+                                                    type="button"
+                                                    class="close"
+                                                    data-dismiss="modal"
+                                                    aria-label="Close"
+                                                >
+                                                    <span
+                                                        aria-hidden="true"
+                                                        >&times;</span
+                                                    >
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>
+                                                    A aplicação do Slack
+                                                    que obtém dados de
+                                                    análises de defeitos
+                                                    encontrados em
+                                                    ambientes de Teste
+                                                    Integrado através de
+                                                    mensagens que seguem um
+                                                    certo padrão.
+                                                </p>
+                                                <p>
+                                                    O objetivo principal é
+                                                    obter o tempo total
+                                                    gasto na análise.
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button
+                                                    type="button"
+                                                    class="btn btn-secondary"
+                                                    data-dismiss="modal"
+                                                >
+                                                    Fechar
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -708,42 +780,40 @@
                 <div class="container">
                     <h2 class="display-5">Artigos</h2>
                     <hr class="my-4" />
-                    <h3 class="display-6">
-                        A importância do HATEOAS em APIs Restful
-                    </h3>
-                    <p class="lead">
-                        HATEOAS ou Hypermedia As the Engine Of Application
-                        State é um modelo simples e elegante com que uma
-                        API REST pode ser desenhada para que a mesma
-                        permita que aplicações que a consumam navegue entre
-                        seus recursos através de links e URLs sem a
-                        necessidade de conhecimento denso prévio sobre a
-                        API. Desta forma, ao consumir uma API REST que
-                        segue o padrão HATEOAS...
-                    </p>
+                    <div class="p-4 p-md-5 text-white rounded bg-primary">
+                        <h3 class="display-6 font-italic">
+                            A importância do HATEOAS em APIs Restful
+                        </h3>
+                        <p class="lead my-3">
+                            Saiba o que é e como utilizar este importante
+                            padrão de arquitetura de APIs REST que facilita
+                            a representação dos estados da aplicação e
+                            previne o chamado "hardcoding".
+                        </p>
+                        <!-- <hr class="my-4" /> -->
+                        <p class="lead text-white font-weight-bold">
+                            HATEOAS ou Hypermedia As the Engine Of
+                            Application State é um modelo simples e
+                            elegante com que uma API REST pode ser
+                            desenhada para que a mesma permita que
+                            aplicações que a consumam navegue entre seus
+                            recursos através de links e URLs sem a
+                            necessidade de conhecimento denso prévio sobre
+                            a API. Desta forma, ao consumir uma API REST
+                            que segue o padrão HATEOAS...
+                        </p>
+                        <a
+                            class="btn btn-secondary btn-lg"
+                            href="https://medium.com/@mellomatheuslima/a-import%C3%A2ncia-do-hateoas-em-apis-restful-1ca2dc081288"
+                            role="button"
+                            target="_blank"
+                            >Leia mais</a
+                        >
+                    </div>
                     <hr class="my-4" />
-                    <p>
-                        Saiba o que é e como utilizar este importante
-                        padrão de arquitetura de APIs REST que facilita a
-                        representação dos estados da aplicação e previne o
-                        chamado "hardcoding".
-                    </p>
-                    <a
-                        class="btn btn-primary btn-lg"
-                        href="https://medium.com/@mellomatheuslima/a-import%C3%A2ncia-do-hateoas-em-apis-restful-1ca2dc081288"
-                        role="button"
-                        target="_blank"
-                        >Saiba mais</a
-                    >
                 </div>
             </section>
         </section>
-
-        <footer>
-            <span
-                class="d-block p-2 bg-primary text-white text-center"
-            ></span>
-        </footer>
 
         <script>
             $('[data-toggle="popover"]').popover();
