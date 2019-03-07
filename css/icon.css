@@ -8,3 +8,8 @@
 .bitmap-logo {
     max-width: 48px;
 }
+
+.logo {
+    /* position: fixed; */
+    max-width: 256px;
+}

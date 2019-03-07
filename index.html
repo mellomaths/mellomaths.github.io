@@ -20,7 +20,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </head>
-    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <body>
         <section id="header">
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
                 <a class="navbar-brand nav-scroll-item " href="#" data-page="header">Matheus Mello de Lima</a>
@@ -261,9 +261,141 @@
             <section id="skills" class="page pb-5">
                 <div class="container">
                     <h2 class="display-5">Competências</h2>
+                    <hr class="my-4" />
+                    <div class="card mt-4 pb-4">
+                        <div class="card-header">
+                            Front End
+                        </div>
+                        <div class="card-body">
+                            <div class="row text-center">
+                                <div class="col image-w logo">
+                                    <img src="./assets/icons/html5.png" alt="" srcset="" />
+                                </div>
+                                <div class="col image-w logo">
+                                    <img src="./assets/icons/javascript.png" alt="" srcset="" />
+                                </div>
+                                <div class="col image-w logo">
+                                    <img src="./assets/icons/react.svg" alt="" srcset="" />
+                                </div>
+                                <div class="col image-w logo">
+                                    <img src="./assets/icons/jquery.png" alt="" srcset="" />
+                                </div>
+                                <div class="col image-w logo">
+                                    <img src="./assets/icons/css3.png" alt="" srcset="" />
+                                </div>
+                                <div class="col image-w logo">
+                                    <img src="./assets/icons/bootstrap.png" alt="" srcset="" />
+                                </div>
+                                <div class="col image-w logo">
+                                    <img src="./assets/icons/materialize.png" alt="" srcset="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col text-center">
+                                HTML5
+                            </div>
+                            <div class="col text-center">
+                                JavaScript
+                            </div>
+                            <div class="col text-center">
+                                React
+                            </div>
+                            <div class="col text-center">
+                                JQuery
+                            </div>
+                            <div class="col text-center">
+                                CSS3
+                            </div>
+                            <div class="col text-center">
+                                Boostrap
+                            </div>
+                            <div class="col text-center">
+                                Materialize
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mt-4 pb-4">
+                        <div class="card-header">
+                            Back End
+                        </div>
+                        <div class="card-body">
+                            <div class="row text-center">
+                                <div class="col image-w logo">
+                                    <img src="./assets/icons/nodejs.png" alt="" srcset="" />
+                                </div>
+                                <div class="col image-w logo">
+                                    <img src="./assets/icons/typescript.svg" alt="" srcset="" />
+                                </div>
+                                <div class="col image-w logo">
+                                    <img src="./assets/icons/python.png" alt="" srcset="" />
+                                </div>
+                                <div class="col image-w logo">
+                                    <img src="./assets/icons/java.png" alt="" srcset="" />
+                                </div>
+                                <div class="col image-w logo">
+                                    <img src="./assets/icons/oracledb.png" alt="" srcset="" />
+                                </div>
+                                <div class="col image-w logo">
+                                    <img src="./assets/icons/mysql.png" alt="" srcset="" />
+                                </div>
+                                <div class="col image-w logo">
+                                    <img src="./assets/icons/mongodb.png" alt="" srcset="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col text-center">
+                                Node.js
+                            </div>
+                            <div class="col text-center">
+                                TypeScript
+                            </div>
+                            <div class="col text-center">
+                                Python
+                            </div>
+                            <div class="col text-center">Java</div>
+                            <div class="col text-center">Oracle Database</div>
+                            <div class="col text-center">MySQL</div>
+                            <div class="col text-center">MongoDB</div>
+                        </div>
+                    </div>
+                    <div class="card mt-4 pb-4">
+                        <div class="card-header">
+                            Outros
+                        </div>
+                        <div class="card-body">
+                            <div class="row text-center">
+                                <div class="col image-w logo">
+                                    <img src="./assets/icons/github.png" alt="" srcset="" />
+                                </div>
+                                <div class="col image-w logo">
+                                    <img src="./assets/icons/heroku-logo.png" alt="" srcset="" />
+                                </div>
+                                <div class="col image-w logo"></div>
+                                <div class="col image-w logo"></div>
+                                <div class="col image-w logo"></div>
+                                <div class="col image-w logo"></div>
+                                <div class="col image-w logo"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col text-center">
+                                Github
+                            </div>
+                            <div class="col text-center">
+                                Heroku
+                            </div>
+                            <div class="col text-center"></div>
+                            <div class="col text-center"></div>
+                            <div class="col text-center"></div>
+                            <div class="col text-center"></div>
+                            <div class="col text-center"></div>
+                        </div>
+                    </div>
                 </div>
             </section>
-            <section id="projects" class="page py-5">
+            <section id="projects" class="page">
                 <div class="container">
                     <h2 class="display-5">Projetos</h2>
                     <hr class="my-4" />
@@ -347,21 +479,28 @@
                 var pageId = $(this).attr('data-page');
                 $('html, body').animate({ scrollTop: $('#' + pageId).offset().top }, 1000);
             });
-            $(document).ready(function () {
+            $('body').scrollspy({ target: '#navbar', offset: 170 });
+            $(document).ready(function() {
                 $('.hover-effect').hover(
                     // When mouse hover
                     function() {
-                        $(this).animate({
-                            marginTop: "-=1%"
-                        }, 200);
+                        $(this).animate(
+                            {
+                                marginTop: '-=1%'
+                            },
+                            200
+                        );
                     },
                     // When mouse out
                     function() {
-                        $(this).animate({
-                            marginTop: "0%"
-                        }, 200);
+                        $(this).animate(
+                            {
+                                marginTop: '0%'
+                            },
+                            200
+                        );
                     }
-                )
+                );
             });
         </script>
     </body>
