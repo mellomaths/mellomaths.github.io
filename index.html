@@ -1,852 +1,653 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-        />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Matheus Mello</title>
-        <link
-            rel="shortcut icon"
-            href="./assets/favicon.png"
-            type="image/x-icon"
-        />
-        <link
-            rel="stylesheet"
-            href="https://bootswatch.com/4/flatly/bootstrap.min.css"
-        />
-        <link
-            rel="stylesheet"
-            href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-            integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-            crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="./css/icon.css" />
-        <link rel="stylesheet" href="./css/timeline.css" />
-        <link rel="stylesheet" href="./css/index.css" />
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    </head>
-    <body>
-        <section id="header">
-            <nav
-                class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
-            >
-                <a
-                    class="navbar-brand nav-scroll-item "
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Matheus Lima</title>
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/4/flatly/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/icon.css" />
+    <link rel="stylesheet" href="./css/timeline.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <section id="header">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <a class="navbar-brand nav-scroll-item" href="#" data-page="header"
+          >Matheus Lima</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarColor02"
+          aria-controls="navbarColor02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav mr-auto">
+            <li id="home-link" class="nav-item">
+              <a class="nav-link nav-scroll-item" href="#" data-page="about"
+                >About</a
+              >
+            </li>
+            <li id="experience-link" class="nav-item">
+              <a
+                class="nav-link nav-scroll-item"
+                href="#"
+                data-page="experience"
+                >Work Experience</a
+              >
+            </li>
+            <li id="skills-link" class="nav-item">
+              <a class="nav-link nav-scroll-item" href="#" data-page="skills"
+                >Skills</a
+              >
+            </li>
+            <li id="projects-link" class="nav-item">
+              <a class="nav-link nav-scroll-item" href="#" data-page="projects"
+                >Project</a
+              >
+            </li>
+            <li id="articles-link" class="nav-item">
+              <a class="nav-link nav-scroll-item" href="#" data-page="articles"
+                >Articles</a
+              >
+            </li>
+          </ul>
+          <div class="socials">
+            <div class="my-2 my-lg-0">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a
+                    class="nav-link nav-scroll-item"
                     href="#"
-                    data-page="header"
-                    >Matheus Mello de Lima</a
+                    data-page="about"
+                  >
+                    <!-- Freelancer -->
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="https://www.linkedin.com/in/matheus-mello-de-lima-a50415111/"
+                    target="_blank"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="https://github.com/mellomaths"
+                    target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../assets/index.png" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="main" class="main">
+      <section id="about" class="page pb-5">
+        <span class="d-block p-4 bg-primary text-white text-center"></span>
+        <div class="jumbotron jumbotron-fluid container-fluid mb-0 pb-0">
+          <div class="container">
+            <h1 class="display-4">
+              Matheus Mello de Lima |
+              <a
+                class="btn btn-primary btn-lg"
+                href="https://www.linkedin.com/in/matheus-mello-de-lima-a50415111/"
+                role="button"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a
+                class="btn btn-primary btn-lg"
+                href="https://github.com/mellomaths"
+                role="button"
+                target="_blank"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                tabindex="0"
+                class="btn btn-lg btn-primary"
+                role="button"
+                href="#"
+                onclick="return false;"
+                data-toggle="popover"
+                data-trigger="hover"
+                data-content="mellomatheuslima@gmail.com"
+                ><i class="far fa-envelope"></i
+              ></a>
+              <a
+                tabindex="0"
+                class="btn btn-lg btn-primary"
+                role="button"
+                href="#"
+                onclick="return false;"
+                data-toggle="popover"
+                data-trigger="hover"
+                data-content="+55 21 99692-3101"
+                ><i class="fas fa-mobile-alt"></i
+              ></a>
+              <a
+                tabindex="0"
+                class="btn btn-lg btn-primary"
+                role="button"
+                href="#"
+                onclick="return false;"
+                data-toggle="popover"
+                data-trigger="hover"
+                data-content="mellomatheuslima"
+                ><i class="fab fa-skype"></i
+              ></a>
+            </h1>
+            <p class="lead">
+              Currently, a graduate student of Computer Science at UERJ and a
+              Software Engineer at
+              <a
+                href="https://www.wexinc.com/"
+                target="_blank"
+                class="text-primary"
+                >Wex</a
+              >, where I work mainly developing backend applications using REST
+              APIs, Microservices and Event-Driven Architecture.
+            </p>
+            <p class="lead">
+              On my daily basis, I use Java, Python, Node.js, Git, Kafka, Docker
+              to solve problems. In architectural perspective, I like to use
+              Test-Driven Development and Domain Driven Development as well as
+              Design Patterns to implement the business rules needed for the
+              application.
+            </p>
+
+            <p class="lead">
+              Recently I've been studying new technologies and design patterns
+              like Golang, Kubernetes, Microservices Architecture, and Hexagonal
+              Architecture.
+            </p>
+            <p class="lead">
+              I tend to be transparent about my work in order to achieve a
+              better and clear communication. I like to write documentations or do presentations to
+              spread knowledge across the team and I am very used to work with
+              Scrum and Agile practices.
+            </p>
+            <p class="lead">Tools and Techniques I work with:</p>
+            <div class="list-group">
+              <a
+                href="https://microservices.io/"
+                target="_blank"
+                class="list-group-item list-group-item-action"
+              >
+                Microservices development with Java, Python and Node.js
+              </a>
+              <a
+                href="https://martinfowler.com/articles/201701-event-driven.html"
+                target="_blank"
+                class="list-group-item list-group-item-action"
+              >
+                Event-Driven Architecture
+              </a>
+              <a
+                href="https://www.redhat.com/pt-br/topics/api/what-is-a-rest-api"
+                target="_blank"
+                class="list-group-item list-group-item-action"
+              >
+                Service integration using REST APIs
+              </a>
+              <a
+                href="https://en.wikipedia.org/wiki/Domain-driven_design"
+                target="_blank"
+                class="list-group-item list-group-item-action"
+                >Domain Driven Design</a
+              >
+              <a
+                href="https://en.wikipedia.org/wiki/Test-driven_development"
+                target="_blank"
+                class="list-group-item list-group-item-action"
+                >Test-Driven Development</a
+              >
+              <a
+                href="https://kafka.apache.org/"
+                target="_blank"
+                class="list-group-item list-group-item-action"
+                >Kafka</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="experience" class="page py-5">
+        <div class="jumbotron jumbotron-fluid container-fluid mb-0">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="main-timeline">
+                  <div class="timeline">
+                    <div class="timeline-icon">
+                      <i class="fa fa-globe"></i>
+                    </div>
+                    <span class="year">2021/03</span>
+                    <div class="timeline-content">
+                      <h5 class="title">Software Engineer @Wex</h5>
+                      <p class="description">
+                        Here I work developing Microservices in Node.js that
+                        drive the company's payment processes serving the
+                        vehicle fleet business strategy. This is my first
+                        opportunity working with international teams.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="timeline">
+                    <div class="timeline-icon">
+                      <i class="fa fa-briefcase"></i>
+                    </div>
+                    <span class="year">2019/09</span>
+                    <div class="timeline-content">
+                      <h5 class="title">
+                        Microservices/API Developer @Sensedia
+                      </h5>
+                      <p class="description">
+                        Following the best practices of modeling and
+                        implementation of resources, I develop REST APIs in
+                        order to facilitate the integrations with front-end and
+                        mobile applications. Microservices development in Python
+                        using Nameko framework and messaging with RabbitMQ
+                        message broker.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="timeline">
+                    <div class="timeline-icon">
+                      <i class="fa fa-briefcase"></i>
+                    </div>
+                    <span class="year">2018/02</span>
+                    <div class="timeline-content">
+                      <h5 class="title">Application Developer @IBM</h5>
+                      <p class="description">
+                        There I worked in the Telecommunication sector
+                        delivering a workflow application that manages all
+                        requests for buying, modifying different types of plans
+                        for the customer.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="timeline">
+                    <div class="timeline-icon">
+                      <i class="fa fa-rocket"></i>
+                    </div>
+                    <span class="year">2016/02</span>
+                    <div class="timeline-content">
+                      <h5 class="title">Started at university @UERJ</h5>
+                      <p class="description">
+                        Computer Science Bachelor's degree in one of the best
+                        universities in Brazil.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="page pb-5">
+        <div class="container">
+          <h2 class="display-5">Skills</h2>
+          <hr class="my-4" />
+          <div class="card mt-4 pb-4">
+            <div class="card-header">Front End</div>
+            <div class="card-body">
+              <div class="row text-center">
+                <div class="col image-w logo">
+                  <img src="./assets/icons/html5.png" alt="" srcset="" />
+                </div>
+                <div class="col image-w logo">
+                  <img src="./assets/icons/javascript.png" alt="" srcset="" />
+                </div>
+                <div class="col image-w logo">
+                  <img src="./assets/icons/react.svg" alt="" srcset="" />
+                </div>
+                <div class="col image-w logo">
+                  <img src="./assets/icons/jquery.png" alt="" srcset="" />
+                </div>
+                <div class="col image-w logo">
+                  <img src="./assets/icons/css3.png" alt="" srcset="" />
+                </div>
+                <div class="col image-w logo">
+                  <img src="./assets/icons/bootstrap.png" alt="" srcset="" />
+                </div>
+                <div class="col image-w logo">
+                  <img src="./assets/icons/materialize.png" alt="" srcset="" />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col text-center">HTML5</div>
+              <div class="col text-center">JavaScript</div>
+              <div class="col text-center">React</div>
+              <div class="col text-center">JQuery</div>
+              <div class="col text-center">CSS3</div>
+              <div class="col text-center">Boostrap</div>
+              <div class="col text-center">Materialize</div>
+            </div>
+          </div>
+          <div class="card mt-4 pb-4">
+            <div class="card-header">Back End</div>
+            <div class="card-body">
+              <div class="row text-center">
+                <div class="col image-w logo">
+                  <img src="./assets/icons/nodejs.png" alt="" srcset="" />
+                </div>
+                <div class="col image-w logo">
+                  <img src="./assets/icons/typescript.svg" alt="" srcset="" />
+                </div>
+                <div class="col image-w logo">
+                  <img src="./assets/icons/python.png" alt="" srcset="" />
+                </div>
+                <div class="col image-w logo">
+                  <img src="./assets/icons/java.png" alt="" srcset="" />
+                </div>
+                <div class="col image-w logo">
+                  <img src="./assets/icons/oracledb.png" alt="" srcset="" />
+                </div>
+                <div class="col image-w logo">
+                  <img src="./assets/icons/mysql.png" alt="" srcset="" />
+                </div>
+                <div class="col image-w logo">
+                  <img src="./assets/icons/mongodb.png" alt="" srcset="" />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col text-center">Node.js</div>
+              <div class="col text-center">TypeScript</div>
+              <div class="col text-center">Python</div>
+              <div class="col text-center">Java</div>
+              <div class="col text-center">Oracle Database</div>
+              <div class="col text-center">MySQL</div>
+              <div class="col text-center">MongoDB</div>
+            </div>
+          </div>
+          <div class="card mt-4 pb-4">
+            <div class="card-header">Outros</div>
+            <div class="card-body">
+              <div class="row text-center">
+                <div class="col image-w logo">
+                  <img src="./assets/icons/github.png" alt="" srcset="" />
+                </div>
+                <div class="col image-w logo">
+                  <img src="./assets/icons/heroku-logo.png" alt="" srcset="" />
+                </div>
+                <div class="col image-w logo"></div>
+                <div class="col image-w logo"></div>
+                <div class="col image-w logo"></div>
+                <div class="col image-w logo"></div>
+                <div class="col image-w logo"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col text-center">Github</div>
+              <div class="col text-center">Heroku</div>
+              <div class="col text-center"></div>
+              <div class="col text-center"></div>
+              <div class="col text-center"></div>
+              <div class="col text-center"></div>
+              <div class="col text-center"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="page">
+        <div class="container">
+          <h2 class="display-5">Projetos</h2>
+          <hr class="my-4" />
+          <div class="card-columns mt-4">
+            <div class="card hover-effect" style="width: 18rem">
+              <img
+                src="./assets/icons/discord.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Discord Bot</h5>
+                <p class="card-text">
+                  Bot para o aplicativo de comunicação Discord que realiza
+                  funções administrativas no servidor.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Em andamento</small>
+                </p>
+
+                <div class="d-inline-flex bd-highlight mb-4">
+                  <div class="image-w bitmap-logo">
+                    <img src="./assets/icons/javascript.png" alt="" srcset="" />
+                  </div>
+                  <div class="image-w bitmap-logo">
+                    <img src="./assets/icons/nodejs.png" alt="" srcset="" />
+                  </div>
+                  <div class="image-w bitmap-logo">
+                    <img src="./assets/icons/github.png" alt="" srcset="" />
+                  </div>
+                  <div class="image-w bitmap-logo">
+                    <img src="./assets/icons/heroku-logo.png" alt="" />
+                  </div>
+                  <div class="image-w bitmap-logo">
+                    <img src="./assets/icons/mongodb.png" alt="" />
+                  </div>
+                </div>
+
+                <a
+                  href="https://github.com/mellomaths/magibot"
+                  target="_blank"
+                  class="btn btn-primary"
+                  >Repositório</a
                 >
+              </div>
+            </div>
+            <div class="card hover-effect" style="width: 18rem">
+              <img
+                src="./assets/icons/slack.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Slack Bot</h5>
+                <p class="card-text">
+                  Bot para obter dados de tempo de análise de defeitos
+                  encontrados em ambientes de Teste Integrado.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted"
+                    >Finalizado (Repositório Privado)</small
+                  >
+                </p>
+
+                <div class="d-inline-flex bd-highlight mb-4">
+                  <div class="image-w bitmap-logo mx-2">
+                    <img src="./assets/icons/typescript.svg" alt="" srcset="" />
+                  </div>
+                  <div class="image-w bitmap-logo">
+                    <img src="./assets/icons/nodejs.png" alt="" srcset="" />
+                  </div>
+                  <div class="image-w bitmap-logo">
+                    <img src="./assets/icons/github.png" alt="" srcset="" />
+                  </div>
+                  <div class="image-w bitmap-logo">
+                    <img src="./assets/icons/oracledb.png" alt="" />
+                  </div>
+                </div>
+
+                <a
+                  href="_"
+                  target="_blank"
+                  class="btn btn-primary disabled mr-1"
+                  >Repositório</a
+                >
+
                 <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#navbarColor02"
-                    aria-controls="navbarColor02"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#exampleModalCenter"
                 >
-                    <span class="navbar-toggler-icon"></span>
+                  Informações
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarColor02">
-                    <ul class="navbar-nav mr-auto">
-                        <li id="home-link" class="nav-item">
-                            <a
-                                class="nav-link nav-scroll-item"
-                                href="#"
-                                data-page="about"
-                                >Sobre</a
-                            >
-                        </li>
-                        <li id="experience-link" class="nav-item">
-                            <a
-                                class="nav-link nav-scroll-item"
-                                href="#"
-                                data-page="experience"
-                                >Experiências</a
-                            >
-                        </li>
-                        <li id="skills-link" class="nav-item">
-                            <a
-                                class="nav-link nav-scroll-item"
-                                href="#"
-                                data-page="skills"
-                                >Competências</a
-                            >
-                        </li>
-                        <li id="projects-link" class="nav-item">
-                            <a
-                                class="nav-link nav-scroll-item"
-                                href="#"
-                                data-page="projects"
-                                >Projetos</a
-                            >
-                        </li>
-                        <li id="articles-link" class="nav-item">
-                            <a
-                                class="nav-link nav-scroll-item"
-                                href="#"
-                                data-page="articles"
-                                >Artigos</a
-                            >
-                        </li>
-                    </ul>
-                    <div class="socials">
-                        <div class="my-2 my-lg-0">
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item">
-                                    <a
-                                        class="nav-link nav-scroll-item"
-                                        href="#"
-                                        data-page="about"
-                                        >Disponível para Freelancer</a
-                                    >
-                                </li>
-                                <li class="nav-item">
-                                    <a
-                                        class="nav-link"
-                                        href="https://www.linkedin.com/in/matheus-mello-de-lima-a50415111/"
-                                        target="_blank"
-                                        ><i class="fab fa-linkedin-in"></i
-                                    ></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a
-                                        class="nav-link"
-                                        href="https://github.com/mellomaths"
-                                        target="_blank"
-                                        ><i class="fab fa-github"></i
-                                    ></a>
-                                </li>
-                            </ul>
-                        </div>
+                <div
+                  class="modal fade"
+                  id="exampleModalCenter"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="exampleModalCenterTitle"
+                  aria-hidden="true"
+                >
+                  <div
+                    class="modal-dialog modal-dialog-centered modal-lg"
+                    role="document"
+                  >
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">
+                          Bug Report Slack App
+                        </h5>
+                        <button
+                          type="button"
+                          class="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <p>
+                          A aplicação do Slack que obtém dados de análises de
+                          defeitos encontrados em ambientes de Teste Integrado
+                          através de mensagens que seguem um certo padrão.
+                        </p>
+                        <p>
+                          O objetivo principal é obter o tempo total gasto na
+                          análise.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-dismiss="modal"
+                        >
+                          Fechar
+                        </button>
+                      </div>
                     </div>
+                  </div>
                 </div>
-            </nav>
-            <div
-                id="carouselExampleSlidesOnly"
-                class="carousel slide"
-                data-ride="carousel"
-            >
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img
-                            src="../assets/index.png"
-                            class="d-block w-100"
-                            alt="..."
-                        />
-                    </div>
-                </div>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
+      <section id="articles" class="page py-5">
+        <div class="container">
+          <h2 class="display-5">Artigos</h2>
+          <hr class="my-4" />
+          <div class="p-4 p-md-5 text-white rounded bg-primary">
+            <h3 class="display-6 font-italic">
+              A importância do HATEOAS em APIs Restful
+            </h3>
+            <p class="lead my-3">
+              Saiba o que é e como utilizar este importante padrão de
+              arquitetura de APIs REST que facilita a representação dos estados
+              da aplicação e previne o chamado "hardcoding".
+            </p>
+            <!-- <hr class="my-4" /> -->
+            <p class="lead text-white font-weight-bold">
+              HATEOAS ou Hypermedia As the Engine Of Application State é um
+              modelo simples e elegante com que uma API REST pode ser desenhada
+              para que a mesma permita que aplicações que a consumam navegue
+              entre seus recursos através de links e URLs sem a necessidade de
+              conhecimento denso prévio sobre a API. Desta forma, ao consumir
+              uma API REST que segue o padrão HATEOAS...
+            </p>
+            <a
+              class="btn btn-light btn-lg"
+              href="https://medium.com/@mellomatheuslima/a-import%C3%A2ncia-do-hateoas-em-apis-restful-1ca2dc081288"
+              role="button"
+              target="_blank"
+              >Leia mais</a
+            >
+          </div>
+          <hr class="my-4" />
+        </div>
+      </section>
+    </section>
 
-        <section id="main" class="main">
-            <section id="about" class="page pb-5">
-                <span
-                    class="d-block p-4 bg-primary text-white text-center"
-                ></span>
-                <div
-                    class="jumbotron jumbotron-fluid container-fluid mb-0 pb-0"
-                >
-                    <div class="container">
-                        <h1 class="display-4">
-                            Matheus Mello de Lima |
-                            <a
-                                class="btn btn-primary btn-lg"
-                                href="https://www.linkedin.com/in/matheus-mello-de-lima-a50415111/"
-                                role="button"
-                                target="_blank"
-                            >
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a
-                                class="btn btn-primary btn-lg"
-                                href="https://github.com/mellomaths"
-                                role="button"
-                                target="_blank"
-                            >
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a
-                                tabindex="0"
-                                class="btn btn-lg btn-primary"
-                                role="button"
-                                href="#"
-                                onclick="return false;"
-                                data-toggle="popover"
-                                data-trigger="hover"
-                                data-content="mellomatheuslima@gmail.com"
-                                ><i class="far fa-envelope"></i
-                            ></a>
-                            <a
-                                tabindex="0"
-                                class="btn btn-lg btn-primary"
-                                role="button"
-                                href="#"
-                                onclick="return false;"
-                                data-toggle="popover"
-                                data-trigger="hover"
-                                data-content="+55 21 99692-3101"
-                                ><i class="fas fa-mobile-alt"></i
-                            ></a>
-                            <a
-                                tabindex="0"
-                                class="btn btn-lg btn-primary"
-                                role="button"
-                                href="#"
-                                onclick="return false;"
-                                data-toggle="popover"
-                                data-trigger="hover"
-                                data-content="mellomatheuslima"
-                                ><i class="fab fa-skype"></i
-                            ></a>
-                        </h1>
-                        <p class="lead">
-                            Sou estudante do 6º período de Ciência da
-                            Computação pela Univerdade do Estado do Rio de
-                            Janeiro - UERJ e integrante de uma equipe de
-                            desenvolvimento Agile como Analista de Sistemas
-                            Júnior na IBM Brasil, trabalhando com sistemas
-                            de
-                            <a
-                                href="https://www.handshake.com/blog/what-is-order-management-2"
-                                target="_blank"
-                                class="text-primary"
-                                >Order Management</a
-                            >
-                            voltado para o mercado de Telecomunicações.
-                            Além disso, tenho como desafio pessoal,
-                            facilitar e agilizar processos internos da
-                            equipe, automatizando-os, através de
-                            ferramentas desenvolvidas em Node.js ou Python.
-                        </p>
-                        <p class="lead">
-                            Possuo interesse em Desenvolvimento Web, Mobile
-                            e em Data Visualization e Data Science.
-                        </p>
-                        <p class="lead">
-                            Ferramentas e tecnologias com que trabalho:
-                        </p>
-                        <div class="list-group">
-                            <a
-                                href="https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript"
-                                target="_blank"
-                                class="list-group-item list-group-item-action"
-                            >
-                                JavaScript
-                            </a>
-                            <a
-                                href="https://www.ericsson.com/en/press-releases/2012/9/ericsson-acquires-canadian-ossbss-company-conceptwave"
-                                target="_blank"
-                                class="list-group-item list-group-item-action"
-                            >
-                                Ericsson's Concept Wave
-                            </a>
-                            <a
-                                href="https://www.soapui.org/"
-                                target="_blank"
-                                class="list-group-item list-group-item-action"
-                                >Soap UI</a
-                            >
-                            <a
-                                href="https://www.oracle.com/br/database/"
-                                target="_blank"
-                                class="list-group-item list-group-item-action"
-                                >Banco de Dados Oracle</a
-                            >
-                            <a
-                                href="https://www.ibm.com/support/knowledgecenter/en/SSGMCP_5.3.0/com.ibm.cics.ts.webservices.doc/concepts/dfhws_definition.html"
-                                target="_blank"
-                                class="list-group-item list-group-item-action"
-                                >Web Services</a
-                            >
-                            <a
-                                href="https://git-scm.com/"
-                                target="_blank"
-                                class="list-group-item list-group-item-action"
-                                >Git e GitHub Enterprise</a
-                            >
-                            <a
-                                href="https://www.zenhub.com/"
-                                target="_blank"
-                                class="list-group-item list-group-item-action"
-                                >Zenhub</a
-                            >
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="experience" class="page py-5">
-                <div
-                    class="jumbotron jumbotron-fluid container-fluid mb-0"
-                >
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="main-timeline">
-                                    <div class="timeline">
-                                        <div class="timeline-icon">
-                                            <i class="fa fa-globe"></i>
-                                        </div>
-                                        <span class="year"
-                                            >06/2018 - o momento</span
-                                        >
-                                        <div class="timeline-content">
-                                            <h5 class="title">
-                                                Analista de Sistemas Júnior
-                                                - IBM
-                                            </h5>
-                                            <p class="description">
-                                                Tenho como objetivo:
-                                                Desenvolver código
-                                                reutilizável, legivel e de
-                                                fácil manutenção em
-                                                JavaScript; Realizar testes
-                                                de sistema complexos de
-                                                forma ágil e eficaz,
-                                                evitando danos ao cliente.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="timeline">
-                                        <div class="timeline-icon">
-                                            <i class="fa fa-briefcase"></i>
-                                        </div>
-                                        <span class="year">02/2018</span>
-                                        <div class="timeline-content">
-                                            <h5 class="title">
-                                                Estágio em Desenvolvimento
-                                                de Software - IBM
-                                            </h5>
-                                            <p class="description">
-                                                Iniciado no programa BTP de
-                                                estágio na IBM.
-                                                Posteriormente efetivado
-                                                para o cargo de Analista de
-                                                Sistemas Júnior.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="timeline">
-                                        <div class="timeline-icon">
-                                            <i class="fa fa-rocket"></i>
-                                        </div>
-                                        <span class="year">02/2016</span>
-                                        <div class="timeline-content">
-                                            <h5 class="title">
-                                                Bacharel em Ciência da
-                                                Computação - UERJ
-                                            </h5>
-                                            <p class="description">
-                                                Curso ministrado pelo
-                                                Instituto de Matemática e
-                                                Estatística - IME tem como
-                                                proposta formar
-                                                profissionais críticos,
-                                                ativos e cada vez mais
-                                                conscientes de seus papéis
-                                                sociais e da sua
-                                                contribuição no avanço
-                                                científico e tecnológico do
-                                                país.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="skills" class="page pb-5">
-                <div class="container">
-                    <h2 class="display-5">Competências</h2>
-                    <hr class="my-4" />
-                    <div class="card mt-4 pb-4">
-                        <div class="card-header">
-                            Front End
-                        </div>
-                        <div class="card-body">
-                            <div class="row text-center">
-                                <div class="col image-w logo">
-                                    <img
-                                        src="./assets/icons/html5.png"
-                                        alt=""
-                                        srcset=""
-                                    />
-                                </div>
-                                <div class="col image-w logo">
-                                    <img
-                                        src="./assets/icons/javascript.png"
-                                        alt=""
-                                        srcset=""
-                                    />
-                                </div>
-                                <div class="col image-w logo">
-                                    <img
-                                        src="./assets/icons/react.svg"
-                                        alt=""
-                                        srcset=""
-                                    />
-                                </div>
-                                <div class="col image-w logo">
-                                    <img
-                                        src="./assets/icons/jquery.png"
-                                        alt=""
-                                        srcset=""
-                                    />
-                                </div>
-                                <div class="col image-w logo">
-                                    <img
-                                        src="./assets/icons/css3.png"
-                                        alt=""
-                                        srcset=""
-                                    />
-                                </div>
-                                <div class="col image-w logo">
-                                    <img
-                                        src="./assets/icons/bootstrap.png"
-                                        alt=""
-                                        srcset=""
-                                    />
-                                </div>
-                                <div class="col image-w logo">
-                                    <img
-                                        src="./assets/icons/materialize.png"
-                                        alt=""
-                                        srcset=""
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col text-center">
-                                HTML5
-                            </div>
-                            <div class="col text-center">
-                                JavaScript
-                            </div>
-                            <div class="col text-center">
-                                React
-                            </div>
-                            <div class="col text-center">
-                                JQuery
-                            </div>
-                            <div class="col text-center">
-                                CSS3
-                            </div>
-                            <div class="col text-center">
-                                Boostrap
-                            </div>
-                            <div class="col text-center">
-                                Materialize
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mt-4 pb-4">
-                        <div class="card-header">
-                            Back End
-                        </div>
-                        <div class="card-body">
-                            <div class="row text-center">
-                                <div class="col image-w logo">
-                                    <img
-                                        src="./assets/icons/nodejs.png"
-                                        alt=""
-                                        srcset=""
-                                    />
-                                </div>
-                                <div class="col image-w logo">
-                                    <img
-                                        src="./assets/icons/typescript.svg"
-                                        alt=""
-                                        srcset=""
-                                    />
-                                </div>
-                                <div class="col image-w logo">
-                                    <img
-                                        src="./assets/icons/python.png"
-                                        alt=""
-                                        srcset=""
-                                    />
-                                </div>
-                                <div class="col image-w logo">
-                                    <img
-                                        src="./assets/icons/java.png"
-                                        alt=""
-                                        srcset=""
-                                    />
-                                </div>
-                                <div class="col image-w logo">
-                                    <img
-                                        src="./assets/icons/oracledb.png"
-                                        alt=""
-                                        srcset=""
-                                    />
-                                </div>
-                                <div class="col image-w logo">
-                                    <img
-                                        src="./assets/icons/mysql.png"
-                                        alt=""
-                                        srcset=""
-                                    />
-                                </div>
-                                <div class="col image-w logo">
-                                    <img
-                                        src="./assets/icons/mongodb.png"
-                                        alt=""
-                                        srcset=""
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col text-center">
-                                Node.js
-                            </div>
-                            <div class="col text-center">
-                                TypeScript
-                            </div>
-                            <div class="col text-center">
-                                Python
-                            </div>
-                            <div class="col text-center">Java</div>
-                            <div class="col text-center">
-                                Oracle Database
-                            </div>
-                            <div class="col text-center">MySQL</div>
-                            <div class="col text-center">MongoDB</div>
-                        </div>
-                    </div>
-                    <div class="card mt-4 pb-4">
-                        <div class="card-header">
-                            Outros
-                        </div>
-                        <div class="card-body">
-                            <div class="row text-center">
-                                <div class="col image-w logo">
-                                    <img
-                                        src="./assets/icons/github.png"
-                                        alt=""
-                                        srcset=""
-                                    />
-                                </div>
-                                <div class="col image-w logo">
-                                    <img
-                                        src="./assets/icons/heroku-logo.png"
-                                        alt=""
-                                        srcset=""
-                                    />
-                                </div>
-                                <div class="col image-w logo"></div>
-                                <div class="col image-w logo"></div>
-                                <div class="col image-w logo"></div>
-                                <div class="col image-w logo"></div>
-                                <div class="col image-w logo"></div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col text-center">
-                                Github
-                            </div>
-                            <div class="col text-center">
-                                Heroku
-                            </div>
-                            <div class="col text-center"></div>
-                            <div class="col text-center"></div>
-                            <div class="col text-center"></div>
-                            <div class="col text-center"></div>
-                            <div class="col text-center"></div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="projects" class="page">
-                <div class="container">
-                    <h2 class="display-5">Projetos</h2>
-                    <hr class="my-4" />
-                    <div class="card-columns mt-4">
-                        <div
-                            class="card hover-effect"
-                            style="width: 18rem;"
-                        >
-                            <img
-                                src="./assets/icons/discord.png"
-                                class="card-img-top"
-                                alt="..."
-                            />
-                            <div class="card-body">
-                                <h5 class="card-title">Discord Bot</h5>
-                                <p class="card-text">
-                                    Bot para o aplicativo de comunicação
-                                    Discord que realiza funções
-                                    administrativas no servidor.
-                                </p>
-                                <p class="card-text">
-                                    <small class="text-muted"
-                                        >Em andamento</small
-                                    >
-                                </p>
-
-                                <div
-                                    class="d-inline-flex bd-highlight mb-4"
-                                >
-                                    <div class="image-w bitmap-logo">
-                                        <img
-                                            src="./assets/icons/javascript.png"
-                                            alt=""
-                                            srcset=""
-                                        />
-                                    </div>
-                                    <div class="image-w bitmap-logo">
-                                        <img
-                                            src="./assets/icons/nodejs.png"
-                                            alt=""
-                                            srcset=""
-                                        />
-                                    </div>
-                                    <div class="image-w bitmap-logo">
-                                        <img
-                                            src="./assets/icons/github.png"
-                                            alt=""
-                                            srcset=""
-                                        />
-                                    </div>
-                                    <div class="image-w bitmap-logo">
-                                        <img
-                                            src="./assets/icons/heroku-logo.png"
-                                            alt=""
-                                        />
-                                    </div>
-                                    <div class="image-w bitmap-logo">
-                                        <img
-                                            src="./assets/icons/mongodb.png"
-                                            alt=""
-                                        />
-                                    </div>
-                                </div>
-
-                                <a
-                                    href="https://github.com/mellomaths/magibot"
-                                    target="_blank"
-                                    class="btn btn-primary"
-                                    >Repositório</a
-                                >
-                            </div>
-                        </div>
-                        <div
-                            class="card hover-effect"
-                            style="width: 18rem;"
-                        >
-                            <img
-                                src="./assets/icons/slack.png"
-                                class="card-img-top"
-                                alt="..."
-                            />
-                            <div class="card-body">
-                                <h5 class="card-title">Slack Bot</h5>
-                                <p class="card-text">
-                                    Bot para obter dados de tempo de
-                                    análise de defeitos encontrados em
-                                    ambientes de Teste Integrado.
-                                </p>
-                                <p class="card-text">
-                                    <small class="text-muted"
-                                        >Finalizado (Repositório
-                                        Privado)</small
-                                    >
-                                </p>
-
-                                <div
-                                    class="d-inline-flex bd-highlight mb-4"
-                                >
-                                    <div class="image-w bitmap-logo mx-2">
-                                        <img
-                                            src="./assets/icons/typescript.svg"
-                                            alt=""
-                                            srcset=""
-                                        />
-                                    </div>
-                                    <div class="image-w bitmap-logo">
-                                        <img
-                                            src="./assets/icons/nodejs.png"
-                                            alt=""
-                                            srcset=""
-                                        />
-                                    </div>
-                                    <div class="image-w bitmap-logo">
-                                        <img
-                                            src="./assets/icons/github.png"
-                                            alt=""
-                                            srcset=""
-                                        />
-                                    </div>
-                                    <div class="image-w bitmap-logo">
-                                        <img
-                                            src="./assets/icons/oracledb.png"
-                                            alt=""
-                                        />
-                                    </div>
-                                </div>
-
-                                <a
-                                    href="_"
-                                    target="_blank"
-                                    class="btn btn-primary disabled mr-1"
-                                    >Repositório</a
-                                >
-
-                                <button
-                                    type="button"
-                                    class="btn btn-primary"
-                                    data-toggle="modal"
-                                    data-target="#exampleModalCenter"
-                                >
-                                    Informações
-                                </button>
-
-                                <div
-                                    class="modal fade"
-                                    id="exampleModalCenter"
-                                    tabindex="-1"
-                                    role="dialog"
-                                    aria-labelledby="exampleModalCenterTitle"
-                                    aria-hidden="true"
-                                >
-                                    <div
-                                        class="modal-dialog modal-dialog-centered modal-lg"
-                                        role="document"
-                                    >
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5
-                                                    class="modal-title"
-                                                    id="exampleModalCenterTitle"
-                                                >
-                                                    Bug Report Slack App
-                                                </h5>
-                                                <button
-                                                    type="button"
-                                                    class="close"
-                                                    data-dismiss="modal"
-                                                    aria-label="Close"
-                                                >
-                                                    <span
-                                                        aria-hidden="true"
-                                                        >&times;</span
-                                                    >
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <p>
-                                                    A aplicação do Slack
-                                                    que obtém dados de
-                                                    análises de defeitos
-                                                    encontrados em
-                                                    ambientes de Teste
-                                                    Integrado através de
-                                                    mensagens que seguem um
-                                                    certo padrão.
-                                                </p>
-                                                <p>
-                                                    O objetivo principal é
-                                                    obter o tempo total
-                                                    gasto na análise.
-                                                </p>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button
-                                                    type="button"
-                                                    class="btn btn-secondary"
-                                                    data-dismiss="modal"
-                                                >
-                                                    Fechar
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="articles" class="page py-5">
-                <div class="container">
-                    <h2 class="display-5">Artigos</h2>
-                    <hr class="my-4" />
-                    <div class="p-4 p-md-5 text-white rounded bg-primary">
-                        <h3 class="display-6 font-italic">
-                            A importância do HATEOAS em APIs Restful
-                        </h3>
-                        <p class="lead my-3">
-                            Saiba o que é e como utilizar este importante
-                            padrão de arquitetura de APIs REST que facilita
-                            a representação dos estados da aplicação e
-                            previne o chamado "hardcoding".
-                        </p>
-                        <!-- <hr class="my-4" /> -->
-                        <p class="lead text-white font-weight-bold">
-                            HATEOAS ou Hypermedia As the Engine Of
-                            Application State é um modelo simples e
-                            elegante com que uma API REST pode ser
-                            desenhada para que a mesma permita que
-                            aplicações que a consumam navegue entre seus
-                            recursos através de links e URLs sem a
-                            necessidade de conhecimento denso prévio sobre
-                            a API. Desta forma, ao consumir uma API REST
-                            que segue o padrão HATEOAS...
-                        </p>
-                        <a
-                            class="btn btn-light btn-lg"
-                            href="https://medium.com/@mellomatheuslima/a-import%C3%A2ncia-do-hateoas-em-apis-restful-1ca2dc081288"
-                            role="button"
-                            target="_blank"
-                            >Leia mais</a
-                        >
-                    </div>
-                    <hr class="my-4" />
-                </div>
-            </section>
-        </section>
-
-        <script>
-            $('[data-toggle="popover"]').popover();
-            $('.nav-scroll-item').click(function() {
-                var pageId = $(this).attr('data-page');
-                $('html, body').animate(
-                    { scrollTop: $('#' + pageId).offset().top },
-                    1000
-                );
-            });
-            $('body').scrollspy({ target: '#navbar', offset: 170 });
-            $(document).ready(function() {
-                $('.hover-effect').hover(
-                    // When mouse hover
-                    function() {
-                        $(this).animate(
-                            {
-                                marginTop: '-=1%'
-                            },
-                            200
-                        );
-                    },
-                    // When mouse out
-                    function() {
-                        $(this).animate(
-                            {
-                                marginTop: '0%'
-                            },
-                            200
-                        );
-                    }
-                );
-            });
-        </script>
-    </body>
+    <script>
+      $('[data-toggle="popover"]').popover();
+      $(".nav-scroll-item").click(function () {
+        var pageId = $(this).attr("data-page");
+        $("html, body").animate(
+          { scrollTop: $("#" + pageId).offset().top },
+          1000
+        );
+      });
+      $("body").scrollspy({ target: "#navbar", offset: 170 });
+      $(document).ready(function () {
+        $(".hover-effect").hover(
+          // When mouse hover
+          function () {
+            $(this).animate(
+              {
+                marginTop: "-=1%",
+              },
+              200
+            );
+          },
+          // When mouse out
+          function () {
+            $(this).animate(
+              {
+                marginTop: "0%",
+              },
+              200
+            );
+          }
+        );
+      });
+    </script>
+  </body>
 </html>
